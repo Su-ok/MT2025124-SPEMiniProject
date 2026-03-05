@@ -9,7 +9,7 @@ pipeline {
     environment {
         // Replace with your Docker Hub ID [cite: 16]
         DOCKER_HUB_USER = "suchirokram" 
-        IMAGE_NAME = "Scientific_calculator"
+        IMAGE_NAME = "scientific_calculator"
         DOCKER_CREDS = 'DockerHubCred'
     }
 
