@@ -26,7 +26,7 @@
     - name: Get container info
       docker_container_info:
         name: calculator_service
-        register: container_status
+      register: container_status
 
     - name: Display container status
       debug:
