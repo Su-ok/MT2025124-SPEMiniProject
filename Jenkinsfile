@@ -2,10 +2,10 @@ pipeline {
     agent any
     
     // Just checking commit with ngrok
-    // Check for GitHub changes every minute 
-   /* triggers {
-        pollSCM('* * * * *')
-    }*/
+    // Switch from Polling to Webhook trigger
+    triggers {
+        githubPush()
+    }
 
     environment {
         // Replace with your Docker Hub ID [cite: 16]
