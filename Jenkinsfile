@@ -2,9 +2,9 @@ pipeline {
     agent any
     
     // Check for GitHub changes every minute 
-    triggers {
+   /* triggers {
         pollSCM('* * * * *')
-    }
+    }*/
 
     environment {
         // Replace with your Docker Hub ID [cite: 16]
