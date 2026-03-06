@@ -17,7 +17,8 @@ pipeline {
         stage('Checkout') {
             steps {
                 // Clones your specific repository [cite: 12]
-                checkout scm
+                //checkout scm
+                git branch: 'main', url: 'https://github.com/Su-ok/MT2025124-SPEMiniProject.git'
             }
         }
 
