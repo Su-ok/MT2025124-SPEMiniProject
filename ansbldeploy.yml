@@ -21,10 +21,3 @@
         interactive: yes
         tty: yes
         restart_policy: always
-
-    - name: Cleanup dangling images and containers
-      docker_prune:
-        containers: yes
-        images: yes
-        images_filters:
-          dangling: true
