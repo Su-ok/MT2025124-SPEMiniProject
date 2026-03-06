@@ -56,8 +56,20 @@ pipeline {
     }
 
     post {
+        success {
+            // Sends email on successful build
+            mail to: 'noiropx59@gmail.com',
+                 subject: "Success: Pipeline ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Build successful! View details: ${env.BUILD_URL}"
+        }
+        failure {
+            // Sends email on failed build
+            mail to: 'noiropx59@gmail.com',
+                 subject: "Failure: Pipeline ${env.JOB_NAME} #${env.BUILD_NUMBER}",
+                 body: "Build failed! Please check the logs here: ${env.BUILD_URL}"
+        }
         always {
-            // Clean up to save space on your host
+            // Retaining your cleanup step to save space on your host machine
             sh "docker system prune -f"
         }
     }
