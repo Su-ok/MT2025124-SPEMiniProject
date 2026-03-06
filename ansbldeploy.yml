@@ -1,0 +1,30 @@
+---
+- name: Deploy Scientific Calculator Microservice
+  hosts: local_host
+  tasks:
+    - name: Pull latest image from Docker Hub
+      docker_image:
+        name: "suchirokram/scientific_calculator"
+        tag: latest
+        source: pull
+
+    - name: Stop and remove old container if it exists
+      docker_container:
+        name: calculator_service
+        state: absent
+
+    - name: Run the new Calculator container
+      docker_container:
+        name: calculator_service
+        image: "suchirokram/scientific_calculator:latest"
+        state: started
+        interactive: yes
+        tty: yes
+        restart_policy: always
+
+    - name: Cleanup dangling images and containers
+      docker_prune:
+        containers: yes
+        images: yes
+        images_filters:
+          dangling: true

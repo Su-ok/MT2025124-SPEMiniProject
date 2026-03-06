@@ -50,7 +50,7 @@ pipeline {
         stage('Ansible Deployment') {
             steps {
                 // Deploys using your local Ansible playbook [cite: 17, 18]
-                sh "ansible-playbook -i inventory.ini playbook_pull.yml"
+                sh "ansible-playbook -i inventory.ini ansbldeploy.yml"
             }
         }
     }
