@@ -10,3 +10,13 @@ Mar 06, 2026 1:07:26 PM org.example.ScientificCalculator main
 INFO: Power 0.0^0.0 = 1.0
 Mar 06, 2026 1:07:38 PM org.example.ScientificCalculator main
 INFO: User exited.
+Mar 07, 2026 12:29:19 AM org.example.ScientificCalculator main
+INFO: Application Begins.
+Mar 07, 2026 12:29:37 AM org.example.ScientificCalculator main
+WARNING: Factorial error: Negative input -1
+Mar 07, 2026 12:29:45 AM org.example.ScientificCalculator main
+WARNING: Log error: Non-positive input 0.0
+Mar 07, 2026 12:29:51 AM org.example.ScientificCalculator main
+INFO: Natural Log of 2.0 = 0.6931471805599453
+Mar 07, 2026 12:29:55 AM org.example.ScientificCalculator main
+INFO: User exited.
