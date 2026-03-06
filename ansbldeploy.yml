@@ -22,3 +22,12 @@
         tty: yes
         detach: yes
         restart_policy: unless-stopped
+
+    - name: Get container info
+      docker_container_info:
+        name: calculator_service
+        register: container_status
+
+    - name: Display container status
+      debug:
+        var: container_status.container.State.Status
