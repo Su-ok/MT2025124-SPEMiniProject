@@ -1,0 +1,12 @@
+Mar 06, 2026 1:06:20 PM org.example.ScientificCalculator main
+INFO: Application Begins.
+Mar 06, 2026 1:06:32 PM org.example.ScientificCalculator main
+WARNING: Square root error: Negative input -1.0
+Mar 06, 2026 1:06:48 PM org.example.ScientificCalculator main
+WARNING: Factorial error: Negative input -2
+Mar 06, 2026 1:07:14 PM org.example.ScientificCalculator main
+WARNING: Log error: Non-positive input -1.0
+Mar 06, 2026 1:07:26 PM org.example.ScientificCalculator main
+INFO: Power 0.0^0.0 = 1.0
+Mar 06, 2026 1:07:38 PM org.example.ScientificCalculator main
+INFO: User exited.
