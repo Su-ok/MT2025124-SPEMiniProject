@@ -68,9 +68,5 @@ pipeline {
                  subject: "Failure: Pipeline ${env.JOB_NAME} #${env.BUILD_NUMBER}",
                  body: "Build failed! Please check the logs here: ${env.BUILD_URL}"
         }
-        always {
-            // Retaining your cleanup step to save space on your host machine
-            sh "docker system prune -f"
-        }
     }
 }
