@@ -56,7 +56,7 @@ public class ScientificCalculator {
                         logger.warning("Factorial error: Negative input " + n);
                     } else {
                         System.out.println("Result: " + factorial(n));
-                        logger.info("Factorial of "+n+" = "+Math.sqrt(n));
+                        logger.info("Factorial of "+n+" = "+factorial(n));
                     }
                     break;
                 case 3:
