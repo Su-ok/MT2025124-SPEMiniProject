@@ -20,3 +20,13 @@ Mar 07, 2026 12:29:51 AM org.example.ScientificCalculator main
 INFO: Natural Log of 2.0 = 0.6931471805599453
 Mar 07, 2026 12:29:55 AM org.example.ScientificCalculator main
 INFO: User exited.
+Mar 15, 2026 3:53:56 PM org.example.ScientificCalculator main
+INFO: Application Begins.
+Mar 15, 2026 3:54:19 PM org.example.ScientificCalculator main
+INFO: Square Root of 65.0 = 8.06225774829855
+Mar 15, 2026 3:54:28 PM org.example.ScientificCalculator main
+INFO: Power 0.0^0.0 = 1.0
+Mar 15, 2026 3:54:42 PM org.example.ScientificCalculator main
+INFO: Power 2.0^-1.0 = 0.5
+Mar 15, 2026 3:54:48 PM org.example.ScientificCalculator main
+INFO: User exited.
