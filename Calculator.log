@@ -30,3 +30,9 @@ Mar 15, 2026 3:54:42 PM org.example.ScientificCalculator main
 INFO: Power 2.0^-1.0 = 0.5
 Mar 15, 2026 3:54:48 PM org.example.ScientificCalculator main
 INFO: User exited.
+Mar 17, 2026 10:35:37 AM org.example.ScientificCalculator main
+INFO: Application Begins.
+Mar 17, 2026 10:35:57 AM org.example.ScientificCalculator main
+INFO: Natural Log of 5.0 = 1.6094379124341003
+Mar 17, 2026 10:36:02 AM org.example.ScientificCalculator main
+INFO: User exited.
